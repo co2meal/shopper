@@ -223,7 +223,76 @@ Ingredient.random_create("김밥용김 (15매)", 1700)
 
 Ingredient.random_create("다시마 (100g)", 2500)
 
-Cook.create_with_ingredients("잡채", ["간장","깨","당근","당면","대파","돼지고기","마늘","설탕","소금","시금치","식용유","양념간장","양파","참기름","표고버섯","후"])
+Ingredient.random_create("이모작 감자 (100g)", 338)
+Ingredient.random_create("수미 감자 (1kg)", 2480)
+
+Ingredient.random_create("베이컨 (75g)", 1780)
+
+Ingredient.random_create("납작만두 (1kg)", 7680)
+Ingredient.random_create("왕만두 (1350g)", 8980)
+Ingredient.random_create("군만두 (700g)", 2980)
+Ingredient.random_create("물만두 (1kg)", 7480)
+
+Ingredient.random_create("햇반 (12입)", 10690)
+Ingredient.random_create("햇반 (6입)", 5320)
+Ingredient.random_create("햇반 (210g)", 1100)
+
+Ingredient.random_create("3분 짜장 (200g)", 900)
+Ingredient.random_create("3분 카레 (200g)", 900)
+Ingredient.random_create("카레가루 (100g)", 2980)
+Ingredient.random_create("짜장분말 (100g)", 1840)
+
+Ingredient.random_create("쌀 (4kg)", 16500)
+Ingredient.random_create("현미쌀 (3kg)", 10800)
+Ingredient.random_create("귀리쌀 (1kg)", 11800)
+Ingredient.random_create("찹쌀 (1kg)", 5200)
+Ingredient.random_create("햅쌀 (10kg)", 28800)
+Ingredient.random_create("흑미쌀 (4kg)", 32000)
+
+Ingredient.random_create("강낭콩 (500g)", 7650)
+Ingredient.random_create("백콩 (1kg)", 7920)
+Ingredient.random_create("검은콩 (500g)", 8650)
+Ingredient.random_create("팥 (500g)", 9900)
+
+
+Ingredient.random_create("보리쌀 (1kg)", 3900)
+
+Ingredient.random_create("연근 (100g)", 580)
+Ingredient.random_create("연근채 (300g)", 3480)
+Ingredient.random_create("우엉채 (300g)", 4980)
+Ingredient.random_create("깐 연근 (300g)", 4990)
+Ingredient.random_create("흙도라지 (봉)", 5880)
+Ingredient.random_create("더덕 (100g)", 1980)
+
+Ingredient.random_create("열무 (봉)", 2180)
+Ingredient.random_create("쑥갓 (봉)", 1100)
+Ingredient.random_create("브로콜리 (1입)", 1680)
+
+####################################
+Ingredient.random_create("사과 (5kg)", 22800)
+Ingredient.random_create("배 (5kg)", 27000)
+Ingredient.random_create("감귤 (4kg)", 10900)
+Ingredient.random_create("감 (5봉)", 4980)
+Ingredient.random_create("곶감 (4봉)", 6980)
+Ingredient.random_create("골드키위 (2kg)", 19800)
+Ingredient.random_create("그린키위 (9봉)", 7480)
+Ingredient.random_create("토마토 (750g)", 4480)
+Ingredient.random_create("자두 (1.2kg)", 5980)
+Ingredient.random_create("복숭아 (800g)", 4500)
+Ingredient.random_create("포도 (1.2kg)", 6980)
+Ingredient.random_create("수박 (6kg)", 14500)
+Ingredient.random_create("메론 (2kg)", 4500)
+####################################
+
+
+
+
+
+
+
+
+####################################
+Cook.create_with_ingredients("잡채", ["간장","깨","당근","당면","대파","돼지고기","마늘","설탕","소금","시금치","식용유","양념간장","양파","참기름","표고버섯","후추"])
 
 Cook.create_with_ingredients("된장찌개", ["고춧가루","대파","된장","두부","마늘","멸치","무","애호박","청양고추","팽이버섯"])
 
@@ -232,4 +301,6 @@ Cook.create_with_ingredients("참치 김치찌개", ["고춧가루","김치","�
 Cook.create_with_ingredients("계란말이", ["맛살","다시마","계란","설탕","소금"])
 
 Cook.create_with_ingredients("고구마 맛탕", ["고구마","설탕","식용유"])
+
+
 
