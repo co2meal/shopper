@@ -7,6 +7,11 @@ class CooksController < ApplicationController
     @cooks = Cook.all
   end
 
+  def search
+    @cooks = Cook.where('name LIKE ?', "%#{params[:q]}%")
+    render :index
+  end
+
   # GET /cooks/1
   # GET /cooks/1.json
   def show
