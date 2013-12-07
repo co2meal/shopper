@@ -211,13 +211,25 @@ Ingredient.random_create("계란 (15입)", 3980)
 Ingredient.random_create("맛김치 (500g)", 5440)
 Ingredient.random_create("맛김치 (1kg)", 7760)
 
+Ingredient.random_create("호박 고구마 (1kg)", 5480)
+
+Ingredient.random_create("꿀 고구마 (3kg)", 10900)
+
+Ingredient.random_create("들기름 (300ml)", 5450)
+
+Ingredient.random_create("구운재래김 (20봉)", 4980)
+Ingredient.random_create("도시락용김 (5봉)", 5980)
+Ingredient.random_create("김밥용김 (15매)", 1700)
+
+Ingredient.random_create("다시마 (100g)", 2500)
+
 Cook.create_with_ingredients("잡채", ["간장","깨","당근","당면","대파","돼지고기","마늘","설탕","소금","시금치","식용유","양념간장","양파","참기름","표고버섯","후"])
 
 Cook.create_with_ingredients("된장찌개", ["고춧가루","대파","된장","두부","마늘","멸치","무","애호박","청양고추","팽이버섯"])
 
-Cook.create_with_ingredients("참치 김치찌개", ["고춧가루","김치","대파","두부","들기름","마늘","멸치국물","설탕","양파","참다랑어","청양고추","후추"])
+Cook.create_with_ingredients("참치 김치찌개", ["고춧가루","김치","대파","두부","들기름","마늘","국물용멸치","설탕","양파","참치","청양고추","후추"])
 
-Cook.create_with_ingredients("계란말이", ["게맛살","다시마","다시마물","달걀","물","설탕","소금","청주"])
+Cook.create_with_ingredients("계란말이", ["맛살","다시마","계란","설탕","소금"])
 
 Cook.create_with_ingredients("고구마 맛탕", ["고구마","설탕","식용유"])
 
