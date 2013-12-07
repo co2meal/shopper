@@ -1,0 +1,38 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @cook.name %>
+</p>
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Emart Price</th>
+      <th>Homeplus Price</th>
+      <th>Kimsclub Price</th>
+      <th>Lotte Price</th>
+      <th>Hanaro Price</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @cook.ingredients.each do |ingredient| %>
+      <tr>
+        <td><%= ingredient.name %></td>
+        <td><%= ingredient.emart_price %></td>
+        <td><%= ingredient.homeplus_price %></td>
+        <td><%= ingredient.kimsclub_price %></td>
+        <td><%= ingredient.lotte_price %></td>
+        <td><%= ingredient.hanaro_price %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+
+
+<%= link_to 'Edit', edit_cook_path(@cook) %> |
+<%= link_to 'Back', cooks_path %>

@@ -1,0 +1,37 @@
+<h1>Listing ingredients</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Emart Price</th>
+      <th>Homeplus Price</th>
+      <th>Kimsclub Price</th>
+      <th>Lotte Price</th>
+      <th>Hanaro Price</th>
+      <!-- <th></th> -->
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @ingredients.each do |ingredient| %>
+      <tr>
+        <td><%= ingredient.name %></td>
+        <td><%= ingredient.emart_price %></td>
+        <td><%= ingredient.homeplus_price %></td>
+        <td><%= ingredient.kimsclub_price %></td>
+        <td><%= ingredient.lotte_price %></td>
+        <td><%= ingredient.hanaro_price %></td>
+        <!-- <td><%= link_to 'Show', ingredient %></td> -->
+        <td><%= link_to 'Edit', edit_ingredient_path(ingredient) %></td>
+        <td><%= link_to 'Destroy', ingredient, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Ingredient', new_ingredient_path %>
